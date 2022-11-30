@@ -11,7 +11,7 @@
 ```
 
 ```JavaScript
-function factorialOf(son) {
+function sonFaktoriali(son) {
   let natija = 1;
   for (let tartib = 1; tartib <= son; tartib++) {
     natija = natija * tartib;
