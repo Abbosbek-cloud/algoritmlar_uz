@@ -3,6 +3,7 @@
 ```
   Fibanochchi sonlari shunday sonlarki, har bir raqam o'zidan oldingi ikkitasining yig'indisi bo'lgan ketma-ketlik.
 ```
+
 ```JavaScript
   const fibanochchiSonlari = [0, 1];
   // eng dastlabki fibanochchi ketma-ketligiga misol bo'la oladi.
@@ -14,7 +15,8 @@
     for (let tartib = 2; tartib < son; tartib++) {
     // keyingi bosqich 2-tartibdan boshlab fibanochchi sonlarini topib olamiz
       fibanochchiSonlari[tartib] = fibanochchiSonlari[tartib - 1] + fibanochchiSonlari[tartib - 2];
-      // yuqoridagi qoidaga muvofiq o'zidan oldingi ikkitasining yig'indisiga teng bo'lgan sonlar fibanochchi sonlaridir va bu funksiyada aynan fibanochchi ketma-ketligidagi sonlar qaytariladi 
+      // yuqoridagi qoidaga muvofiq o'zidan oldingi ikkitasining yig'indisiga teng bo'lgan sonlar fibanochchi
+      // sonlaridir va bu funksiyada aynan fibanochchi ketma-ketligidagi sonlar qaytariladi
     }
 
     return fibanochchiSonlari;
