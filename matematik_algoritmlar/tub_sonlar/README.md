@@ -1,7 +1,7 @@
 ## Tub sonlar
 
 ```
-    Tub son deb faqat o'ziga va 1ga bo'linuvchi sonlarga aytiladi.
+Tub son deb faqat o'ziga va 1ga bo'linuvchi sonlarga aytiladi.
 ```
 
 ```JavaScript
